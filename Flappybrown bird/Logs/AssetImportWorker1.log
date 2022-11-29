@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 6092 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/yedek/flappy falcon
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54928
+Successfully changed project path to: E:/yedek/flappy falcon
+E:/yedek/flappy falcon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 153.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/yedek/flappy falcon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3046 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.037050 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 140.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\yedek\flappy falcon\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\yedek\flappy falcon\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 128.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1904ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1400ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (812ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.0 KB). Loaded Objects now: 4544.
+Memory consumption went from 153.9 MB to 153.7 MB.
+Total: 4.292000 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.110600 ms MarkObjects: 3.556700 ms  DeleteObjects: 0.205500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 374458.628532 seconds.
+  path: Assets/kuş animasyonu/kuş4.png
+  artifactKey: Guid(9cb8543fd4c75664f91d2eca85293ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kuş animasyonu/kuş4.png using Guid(9cb8543fd4c75664f91d2eca85293ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e770b501821856aa9ea933dc66f4c7') in 0.269852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/New Folder/boru.png
+  artifactKey: Guid(ca9f4c89cbe8ad4449d62068327b2598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/boru.png using Guid(ca9f4c89cbe8ad4449d62068327b2598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09d240356f7282b9e6350d9f670778a') in 0.040745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/kuş animasyonu/kuş2.png
+  artifactKey: Guid(f4b2adee057328b42825003b955fc526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kuş animasyonu/kuş2.png using Guid(f4b2adee057328b42825003b955fc526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c40e91338ed96ceb4ec185762cf5bf1') in 0.014241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kuş animasyonu/kuş1.png
+  artifactKey: Guid(9d7a47a414f6c024ab377567bf84ae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kuş animasyonu/kuş1.png using Guid(9d7a47a414f6c024ab377567bf84ae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c124d40f2135e62a34d46f3c33c748d') in 0.012202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kuş animasyonu/kuş3.png
+  artifactKey: Guid(5cb98de6f4e1c5c4f8c38376dfe761ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kuş animasyonu/kuş3.png using Guid(5cb98de6f4e1c5c4f8c38376dfe761ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a99f0524e6e11eafc6b1b5ac664b4c') in 0.015919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/New Folder/borular.prefab
+  artifactKey: Guid(b91d7b287411dd847aa7039923fd4255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/borular.prefab using Guid(b91d7b287411dd847aa7039923fd4255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69932a1afc9dde5937abfdde96f5f868') in 0.083728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.276374 seconds.
+  path: Assets/about.gif
+  artifactKey: Guid(679f7cb279a850c4eb62dfbc5f6f7980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/about.gif using Guid(679f7cb279a850c4eb62dfbc5f6f7980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9409a024e2c7d42cc3059b0fb0ea0786') in 0.036685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/coin1.wav
+  artifactKey: Guid(4c7bb43a888a5d643b3cc769c5e30c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coin1.wav using Guid(4c7bb43a888a5d643b3cc769c5e30c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac29776bd49dc99c71f7d2fa707d5c94') in 0.102498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Adsız tasarım (11).png
+  artifactKey: Guid(27449cf3bb927cf4aad130d4c56025f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adsız tasarım (11).png using Guid(27449cf3bb927cf4aad130d4c56025f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf154f87d11799cb090ac685a5e263f') in 0.190526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tinker Time - Nathan Moore.mp3
+  artifactKey: Guid(8b18c90c306088e4e95d3e2eaa1687cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tinker Time - Nathan Moore.mp3 using Guid(8b18c90c306088e4e95d3e2eaa1687cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1582a4c71e49da56978c39da0b39f434') in 0.029171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adsız tasarım (12).png
+  artifactKey: Guid(ffd4c38babd35bb42ba3c61f4281c175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adsız tasarım (12).png using Guid(ffd4c38babd35bb42ba3c61f4281c175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b46667f292762a08e63dbd1c910beb2') in 0.199563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Adsız tasarım (14).png
+  artifactKey: Guid(99b97c29db2a2914f88cbebb6081a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adsız tasarım (14).png using Guid(99b97c29db2a2914f88cbebb6081a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f76243ad1dd35fa3fb83ed90a732de') in 0.174322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/pixil-frame-0 (7).png
+  artifactKey: Guid(c93a1c84478d7fa4fae75a232453da01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (7).png using Guid(c93a1c84478d7fa4fae75a232453da01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f14c6ff10df47276175df7f82e3257') in 0.016551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ses tuşu.png
+  artifactKey: Guid(6c3c1123a9fe9a442a71f8755cdff1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ses tuşu.png using Guid(6c3c1123a9fe9a442a71f8755cdff1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb011f14f58fe37db89b81364af5580') in 0.030638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Oyun Bittii.png
+  artifactKey: Guid(73b713038d9ff264aa2d6370f76ea26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oyun Bittii.png using Guid(73b713038d9ff264aa2d6370f76ea26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f16488a2a8f88f58fe2d5a4cb54332') in 0.041968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Adsız tasarım (15).png
+  artifactKey: Guid(9c069376910a0e240b322e0865e1e1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adsız tasarım (15).png using Guid(9c069376910a0e240b322e0865e1e1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008c8491ff6fb1653364d29e4c789737') in 0.033908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kuş.png
+  artifactKey: Guid(b6ae017fcc19c024b82cacba086419fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kuş.png using Guid(b6ae017fcc19c024b82cacba086419fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27698c0303ece6beff7b6c2f7400174') in 0.027938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/jump.wav
+  artifactKey: Guid(586d0bd4cc0ff7644b08233ae0877be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/jump.wav using Guid(586d0bd4cc0ff7644b08233ae0877be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081634299e4f67e57c4524d356f8e233') in 0.133723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ana menü tuşu.png
+  artifactKey: Guid(8f43add4f0c13324bafb8bfe01c141c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ana menü tuşu.png using Guid(8f43add4f0c13324bafb8bfe01c141c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f678efaa96508366bafa9774100b019') in 0.024050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/başla tuşu.png
+  artifactKey: Guid(4553a597b46bc134c9a562dd4d3b05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/başla tuşu.png using Guid(4553a597b46bc134c9a562dd4d3b05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cdcc0830cb60132c2777e23cda487a') in 0.051686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/pixil-frame-0 (6).png
+  artifactKey: Guid(d37753c1b5106dc43af2b65c0d723f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixil-frame-0 (6).png using Guid(d37753c1b5106dc43af2b65c0d723f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df366dd1aa4b3b5701a0349bc04a1bfb') in 0.013150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mobile - Flappy Bird - Version 12 Sprites.png
+  artifactKey: Guid(216ebea51a8b95949830eb7a299922a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile - Flappy Bird - Version 12 Sprites.png using Guid(216ebea51a8b95949830eb7a299922a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f23fd4e9fea333c2e8ce387637fc27') in 0.346752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.213566 seconds.
+  path: Assets/wepik-simple-blue-night-sky-desktop-wallpaper-202288-114136.png
+  artifactKey: Guid(f082ab7b7018c144a906893f2b8dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wepik-simple-blue-night-sky-desktop-wallpaper-202288-114136.png using Guid(f082ab7b7018c144a906893f2b8dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fddaedcf1b6edcf59a1d8398602ec4') in 0.184481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/yapımcı.png
+  artifactKey: Guid(733e3a10b1f01ac43b9c0055b3c84e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yapımcı.png using Guid(733e3a10b1f01ac43b9c0055b3c84e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e2bb93f29b2af324403b4a8dda95af') in 0.025135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YAPIMCI.png
+  artifactKey: Guid(6cb70efc2f6d80349ad0d469041ead98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAPIMCI.png using Guid(6cb70efc2f6d80349ad0d469041ead98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268891593673780166ac0324535a910c') in 0.166460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ölüm ekranı.png
+  artifactKey: Guid(77077d47e88ea1542be23a0cf8558072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ölüm ekranı.png using Guid(77077d47e88ea1542be23a0cf8558072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c56d1d22039c978cdc52c6b86c198bc') in 0.060508 seconds 
